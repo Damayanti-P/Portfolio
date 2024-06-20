@@ -9,6 +9,9 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import navIcon4 from '../assets/img/nav-icon4.svg';
+import {
+  BrowserRouter as Router
+} from "react-router-dom";
 
 export const NavBar=()=>{
     const[activeLink,setActiveLink] = useState('home');
@@ -31,7 +34,8 @@ export const NavBar=()=>{
     }
 
   return (
-    <Navbar expand="lg" >
+    <Router>
+    <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="/"><img src={logo} alt='Logo'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" >
@@ -58,6 +62,7 @@ export const NavBar=()=>{
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </Router>
   );
 }
 

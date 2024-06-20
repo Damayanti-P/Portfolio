@@ -4,7 +4,7 @@ import headerIcon from "../assets/img/hero-image.png"
 import {ArrowRight, ArrowRightCircle, ArrowRightCircleFill} from "react-bootstrap-icons"
 const Banner = () => {
   return (
-    <section className='banner' id='ome'>
+    <section className='banner' id='home'>
         <Container>
             <Row>
                 <Col xs={12} md={6} xl={7}>

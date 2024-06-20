@@ -92,10 +92,10 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #100216;
 }
 nav.navbar a.navbar-brand {
-    width: 25%;
+    width: 20%;
  
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -116,7 +116,7 @@ span.navbar-text {
 }
 .social-icon {
     display: inline-block;
-    margin-left: 14px;
+    margin-left: 40px;
 }
 .social-icon a {
     width: 42px;
@@ -235,7 +235,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  /* background-image: url('./assets/img/banner-bg.png'); */
+  background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -312,7 +312,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  margin-top: 30px;
 }
 .skill h2 {
 	font-size: 45px;
